@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+
+        <!-- Exo -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,800;0,900;1,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+        <h1 class="title">Rock Paper Scissors</h1>
+        <h3 id="display-el"></h3>
+        <!-- <button onclick="startGame()">START GAME</button> -->
+        <div class="button-list">
+                <button onclick="rock()">Rock 🪨</button>
+                <button onclick="paper()">Paper 📄</button>
+                <button onclick="scissors()">Scissors ✂</button>
+        </div>
+        
+        <h4 id="result-el">Choose your hand!</h4>
+
+        <div class="score">
+                <p id="player-score-el">Player Score: </p>
+                <p id="computer-score-el">Computer Score: </p>
+        </div>
+        <h4 id="player-credits-el">Player Credits: </h4>
+        <!-- Javascript -->
+        <script src="index.js"></script>
+</body>
+
+</html>
