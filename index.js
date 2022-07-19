@@ -27,8 +27,8 @@ function rules() {
         resultEl.textContent = "Tie"
 
     } else {
-    resultEl.textContent = "Loss"
-    computerScore += 1
+        resultEl.textContent = "Loss"
+        computerScore += 1
     }
 
 }
